@@ -121,7 +121,7 @@
     ```
 
 You're all set! The Voting app should be up and running now at http://localhost:8080/.  
-For more info about usage, check out [YouTube video](https://www.youtube.com/watch?v=a5CJ70D2P-E).
+
 ## Code Structure
 
     ├── blockchain-voting-dapp            # Root directory of the project.
