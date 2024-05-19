@@ -18,11 +18,11 @@
 
 ## Screenshots
 
-![Login Page](https://github.com/Krish-Depani/Decentralized-Voting-System-Using-Ethereum-Blockchain/blob/main/public/login%20ss.png)
+![Login Page](https://github.com/abhi07rana/Decentralized-Voting-System/blob/main/public/login%20ss.png)
 
-![Admin Page](https://github.com/Krish-Depani/Decentralized-Voting-System-Using-Ethereum-Blockchain/blob/main/public/admin%20ss.png)
+![Admin Page](https://github.com/abhi07rana/Decentralized-Voting-System/blob/main/public/admin%20ss.png)
 
-![Voter Page](https://github.com/Krish-Depani/Decentralized-Voting-System-Using-Ethereum-Blockchain/blob/main/public/index%20ss.png)
+![Voter Page](https://github.com/abhi07rana/Decentralized-Voting-System/blob/main/public/index%20ss.png)
 
 ## Installation
 
@@ -30,7 +30,7 @@
 
 2. Clone the repository by using the command:
     ```bash
-    git clone https://github.com/Krish-Depani/Decentralized-Voting-System-Using-Ethereum-Blockchain.git
+    git clone https://github.com/abhi07rana/Decentralized-Voting-System.git
     ```
 
 3. Download and install [Ganache](https://trufflesuite.com/ganache/).
@@ -122,51 +122,47 @@
 
 You're all set! The Voting app should be up and running now at http://localhost:8080/.  
 For more info about usage, check out [YouTube video](https://www.youtube.com/watch?v=a5CJ70D2P-E).
-
 ## Code Structure
 
-├── blockchain-voting-dapp # Root directory of the project.
-├── build # Directory containing compiled contract artifacts.
-| └── contracts
-| ├── Migrations.json
-| └── Voting.json
-├── contracts # Directory containing smart contract source code.
-| ├── 2_deploy_contracts.js
-| ├── Migrations.sol
-| └── Voting.sol
-├── Database_API # API code for database communication.
-| └── main.py
-├── migrations # Ethereum contract deployment scripts.
-| └── 1_initial_migration.js
-├── node_modules # Node.js modules and dependencies.
-├── public # Public assets like favicon.
-| └── favicon.ico
-├── src
-| ├── assets # Project images.
-| | └── eth5.jpg
-| ├── css # CSS stylesheets.
-| | ├── admin.css
-| | ├── index.css
-| | └── login.css
-| ├── dist # Compiled JavaScript bundles.
-| | ├── app.bundle.js
-| | └── login.bundle.js
-| ├── html # HTML templates.
-| | ├── admin.html
-| | ├── index.html
-| | └── login.html
-| └── js # JavaScript logic files.
-| ├── app.js
-| └── login.js
-├── index.js # Main entry point for Node.js application.
-├── package.json # Node.js package configuration.
-├── package-lock.json # Lockfile for package dependencies.
-├── README.md # Project documentation.
-└── truffle-config.js # Truffle configuration file.
-
+    ├── blockchain-voting-dapp            # Root directory of the project.
+        ├── build                         # Directory containing compiled contract artifacts.
+        |   └── contracts                 
+        |       ├── Migrations.json       
+        |       └── Voting.json           
+        ├── contracts                     # Directory containing smart contract source code.
+        |   ├── 2_deploy_contracts.js     
+        |   ├── Migrations.sol            
+        |   └── Voting.sol                
+        ├── Database_API                  # API code for database communication.
+        |   └── main.py                   
+        ├── migrations                    # Ethereum contract deployment scripts.
+        |   └── 1_initial_migration.js    
+        ├── node_modules                  # Node.js modules and dependencies.
+        ├── public                        # Public assets like favicon.
+        |   └── favicon.ico               
+        ├── src                           
+        |   ├── assets                    # Project images.
+        |   |   └── eth5.jpg              
+        |   ├── css                       # CSS stylesheets.
+        |   |   ├── admin.css             
+        |   |   ├── index.css             
+        |   |   └── login.css             
+        |   ├── dist                      # Compiled JavaScript bundles.
+        |   |   ├── app.bundle.js         
+        |   |   └── login.bundle.js       
+        |   ├── html                      # HTML templates.
+        |   |   ├── admin.html            
+        |   |   ├── index.html            
+        |   |   └── login.html            
+        |   └── js                        # JavaScript logic files.
+        |       ├── app.js                
+        |       └── login.js              
+        ├── index.js                      # Main entry point for Node.js application.
+        ├── package.json                  # Node.js package configuration.
+        ├── package-lock.json             # Lockfile for package dependencies.
+        ├── README.md                     # Project documentation.
+        └── truffle-config.js                    # Truffle configuration file.
 ## License
 
-The code in this repository is licensed under the MIT License. This means that you are free to use, modify, and distribute the code, as long as you include the original copyright and license notice. For more information about the LICENSE please click [here](https://github.com/Krish-Depani/Decentralized-Voting-System-Using-Ethereum-Blockchain/blob/main/LICENSE).
+This project has been adapted from Krish-Depani's Decentralized Voting System repository, with credit for helping to build this code.
 
-## If you like this project, please give it a 🌟.
-## Thank you 😊.
