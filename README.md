@@ -120,7 +120,9 @@
     truffle migrate
     ```
 
-You're all set! The Voting app should be up and running now at http://localhost:8080/.  
+You're all set! The Voting app should be up and running now at http://localhost:8080/. 
+
+This project has incorporated insights from Farhan Khan's article(https://www.linkedin.com/pulse/using-ganache-ethereum-emulator-metamask-farhan-khan/) on LinkedIn for the usage of Ganache Ethereum emulator and Metamask. For detailed instructions on utilizing these tools, please refer to the mentioned post. 
 
 ## Code Structure
 
