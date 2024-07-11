@@ -164,7 +164,5 @@ This project has incorporated insights from Farhan Khan's article refer to this 
         ├── package-lock.json             # Lockfile for package dependencies.
         ├── README.md                     # Project documentation.
         └── truffle-config.js                    # Truffle configuration file.
-## License
 
-This project has been adapted from Krish-Depani's Decentralized Voting System repository, with credit for helping to build this code.
 
